@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio - Diana Trimuawasi</title>
+    <title>Portofolio - Diana Trimuawasih</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
             background-color: #333131;
+            color: white;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -53,7 +54,6 @@
         .container {
             margin-top: 70px; /* Offset for fixed navbar */
             text-align: center;
-            color: white;
             max-width: 1200px;
             width: 100%;
             padding: 20px;
@@ -110,7 +110,7 @@
 
         .about-container h2, .resume-container h2, .services-container h2, .work-container h2 {
             text-align: center;
-            margin-bottom: 5px;;
+            margin-bottom: 20px;
         }
 
         .about-container .content, .services-container .services {
@@ -142,11 +142,6 @@
 
         .about-container .social-links a:hover, .services-container .services a:hover {
             color: #555;
-            text-align: center;
-        }
-
-        .about-container {
-            color: white;
         }
 
         .timeline {
@@ -321,163 +316,139 @@
 
         .work-container .work-item h3 {
             margin: 10px;
-            font-size: 16px;
+            font-size: 20px;
         }
 
         .work-container .work-item p {
             margin: 10px;
-            font-size: 14px;
-        }
-
-        .work-container .work-item .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .work-container .work-item:hover .overlay {
-            opacity: 1;
+            font-size: 10px;
         }
 
         footer {
-            background-color: #222;
+            background-color: #444;
             color: white;
-            padding: 10px 0;
+            padding: 20px;
             text-align: center;
             width: 100%;
-            position: fixed;
-            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
         }
 
+        footer p {
+            margin: 0;
+        }
     </style>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="#profile">Profile</a></li>
+            <li><a href="#profile">Profil</a></li>
             <li><a href="#about">Tentang</a></li>
-            <li><a href="#resume">Resume</a></li>
+            <li><a href="#resume">Riwayat Hidup</a></li>
             <li><a href="#services">Layanan</a></li>
-            <li><a href="#work">Karya</a></li>
+            <li><a href="#work">Pekerjaan</a></li>
         </ul>
     </nav>
-    <div class="container" id="profile">
-        <div class="profile">
-            <img class="profile-img" src="diana.jpg" alt="Foto Profil">
-            <h1>Diana Trimuawasi</h1>
-            <p>Web Developer | Designer</p>
-            <div class="social-links">
-            <a href="https://youtube.com/@dianatrimuawasih8309?si=8Ob14AblA6xRRkYq" target="_blank"><i class="fab fa-youtube"></i></a>
-            <a href="https://www.facebook.com/diana.trimuawasih.58?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://wa.me/+6282288471649" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://www.instagram.com/dtrmwsh?igsh=MWxyOGlua3Yzbm1iYg==" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.tiktok.com/@sicutee_0?_r=1&_d=dkl7jl67i6kf42&sec_uid=MS4wLjABAAAADkk-I-4qCfqDdVFTVWjxf2l3ryEwY_oJQ_yowMQaZCuMYdQRFT2dzJHkNtkJGcCS&share_author_id=7011100303111177217&sharer_language=id&source=h5_t&u_code=dkl7k152i64lb4&timestamp=1721893038&user_id=7011100303111177217&sec_user_id=MS4wLjABAAAADkk-I-4qCfqDdVFTVWjxf2l3ryEwY_oJQ_yowMQaZCuMYdQRFT2dzJHkNtkJGcCS&utm_source=whatsapp&utm_campaign=client_share&utm_medium=android&share_iid=7386095470987020038&share_link_id=e24b257e-4fcb-40b7-8c9b-5ab04130b835&share_app_id=1180&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb4907&social_share_type=5&enable_checksum=1" target="_blank"><i class="fab fa-tiktok"></i></a>
-        </div>
-        </div>
 
-        <div class="about-container" id="about">
+    <div class="container">
+        <section id="profile" class="profile">
+            <img src="diana.jpg" alt="Foto Profil" class="profile-img">
+            <h1>Diana Trimuawasih</h1>
+            <p>Desainer Grafis | Pengembang Web</p>
+            <div class="social-links">
+                <div class="social-links">
+                    <a href="https://youtube.com/@dianatrimuawasih8309?si=8Ob14AblA6xRRkYq" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/diana.trimuawasih.58?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/+6282288471649" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/dtrmwsh?igsh=MWxyOGlua3Yzbm1iYg==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@sicutee_0?_r=1&_d=dkl7jl67i6kf42&sec_uid=MS4wLjABAAAADkk-I-4qCfqDdVFTVWjxf2l3ryEwY_oJQ_yowMQaZCuMYdQRFT2dzJHkNtkJGcCS&share_author_id=7011100303111177217&sharer_language=id&source=h5_t&u_code=dkl7k152i64lb4&timestamp=1721893038&user_id=7011100303111177217&sec_user_id=MS4wLjABAAAADkk-I-4qCfqDdVFTVWjxf2l3ryEwY_oJQ_yowMQaZCuMYdQRFT2dzJHkNtkJGcCS&utm_source=whatsapp&utm_campaign=client_share&utm_medium=android&share_iid=7386095470987020038&share_link_id=e24b257e-4fcb-40b7-8c9b-5ab04130b835&share_app_id=1180&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb4907&social_share_type=5&enable_checksum=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-container">
             <h2>Tentang Saya</h2>
             <div class="content">
                 <div class="info">
-                    <p><strong>Nama:</strong> Diana Trimuawasi</p>
-                    <p><strong>Tanggal Lahir:</strong> 15 Agustus 1995</p>
-                    <p><strong>Alamat:</strong> Jl. Mawar No. 20, Jakarta</p>
-                    <p><strong>Email:</strong> diana@example.com</p>
+                    <p>Halo! Saya Diana, seorang desainer grafis dan pengembang web dengan pengalaman lebih dari 2 tahun dalam industri kreatif. Saya bersemangat tentang menciptakan desain yang inovatif dan fungsional.</p>
                 </div>
                 <div class="description">
-                    <h3>Halo!</h3>
-                    <p>Hallo saya merupakan anak ketiga dari tiga bersaudara, saya tumbuh dengan kepribadian yang penuh ceria dan penuh semangat. Sejak kecil, saya selalu dikelilingi oleh dua abang yang selalu mendukung dan keluarga yang penuh kasih sayang. Hobi saya adalah memasak serta menyanyi, dengan suara merdu dan semangat yang menggebu. .</p>
-                    <p>Diluar hobi menyanyi, saya juga dikenal sebagai pribadi yang ramah, pantang menyerah, penuh empati dan selalu siap membantu orang lain.</p>
+                    <p>Saya memiliki keterampilan dalam berbagai alat desain dan teknologi web, termasuk Adobe Creative Suite, HTML, CSS, dan JavaScript. Tujuan saya adalah untuk menghadirkan solusi kreatif yang memenuhi kebutuhan klien dan mencapai hasil yang optimal.</p>
                 </div>
             </div>
-        </div>
+            <div class="social-links">
+                <a href="CV Diana Trimuawasih .pdf"target="_blank"><i class="fab fa-"></i>CV Saya</a>
+                <a href="https://wa.me/+6282288471649"target="_blank"><i class="fab fa-whatsapp"></i>Hubungi Saya</a>
+            </div>
+        </section>
 
-        <div class="resume-container" id="resume">
-            <h2>Resume</h2>
+        <section id="resume" class="resume-container">
+            <h2>Riwayat Hidup</h2>
             <div class="timeline">
                 <div class="timeline-item left">
                     <div class="timeline-content">
-                        <h3>Senior Web Developer</h3>
-                        <p>PT. Tech Solutions (2020 - Sekarang)</p>
-                        <p>Deskripsi pekerjaan di sini.</p>
+                        <h3>Posisi Terakhir</h3>
+                        <p>Desainer Grafis di Perusahaan XYZ (2019 - Sekarang)</p>
+                        <p>Deskripsi pekerjaan dan pencapaian utama di sini.</p>
                     </div>
                 </div>
                 <div class="timeline-item right">
                     <div class="timeline-content">
-                        <h3>Web Developer</h3>
-                        <p>PT. Web Creatives (2017 - 2020)</p>
-                        <p>Deskripsi pekerjaan di sini.</p>
+                        <h3>Posisi Sebelumnya</h3>
+                        <p>Pengembang Web di Perusahaan ABC (2015 - 2019)</p>
+                        <p>Deskripsi pekerjaan dan pencapaian utama di sini.</p>
                     </div>
                 </div>
-                <div class="timeline-item left">
-                    <div class="timeline-content">
-                        <h3>Junior Web Developer</h3>
-                        <p>Freelance (2015 - 2017)</p>
-                        <p>Deskripsi pekerjaan di sini.</p>
-                    </div>
-                </div>
+                <!-- Tambah item riwayat hidup lainnya di sini -->
             </div>
-        </div>
+        </section>
 
-        <div class="services-container" id="services">
+        <section id="services" class="services-container">
             <h2>Layanan</h2>
             <div class="services">
                 <div class="service-item">
-                    <i class="fas fa-laptop-code"></i>
-                    <h3>Pengembangan Web</h3>
-                    <p>Membangun situs web yang responsif dan fungsional.</p>
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Desain Grafis</h3>
+                    <p>Desain logo, materi pemasaran, dan berbagai proyek desain visual.</p>
                 </div>
                 <div class="service-item">
-                    <i class="fas fa-paint-brush"></i>
-                    <h3>Desain Web</h3>
-                    <p>Menciptakan desain antarmuka pengguna yang menarik.</p>
+                    <i class="fas fa-code"></i>
+                    <h3>Pengembangan Web</h3>
+                    <p>Pengembangan situs web responsif dan aplikasi web menggunakan teknologi terbaru.</p>
                 </div>
                 <div class="service-item">
                     <i class="fas fa-mobile-alt"></i>
-                    <h3>Aplikasi Mobile</h3>
-                    <p>Mengembangkan aplikasi mobile untuk platform Android dan iOS.</p>
+                    <h3>Desain UI/UX</h3>
+                    <p>Menciptakan antarmuka pengguna yang intuitif dan pengalaman pengguna yang optimal.</p>
                 </div>
+                <!-- Tambah layanan lainnya di sini -->
             </div>
-        </div>
+        </section>
 
-        <div class="work-container" id="work">
-            <h2>Karya</h2>
+        <section id="work" class="work-container">
+            <h2>Pekerjaan</h2>
             <div class="work-grid">
                 <div class="work-item">
-                    <img src="1.jpg" alt="Project 1">
-                    <div class="overlay">
-                        <h3>Project 1</h3>
-                        <p>Deskripsi singkat tentang project 1.</p>
-                    </div>
+                    <img src="1.jpg" alt="Proyek 1">
+                    <h3>Proyek 1</h3>
+                    <p>Merupakan website PT.Xyz</p>
                 </div>
                 <div class="work-item">
-                    <img src="2.jpg" alt="Project 2">
-                    <div class="overlay">
-                        <h3>Project 2</h3>
-                        <p>Deskripsi singkat tentang project 2.</p>
-                    </div>
+                    <img src="2.jpg" alt="Proyek 2">
+                    <h3>Proyek 2</h3>
+                    <p>Website PT.Uhuy</p>
                 </div>
                 <div class="work-item">
-                    <img src="3.png" alt="Project 3">
-                    <div class="overlay">
-                        <h3>Project 3</h3>
-                        <p>Deskripsi singkat tentang project 3.</p>
-                    </div>
+                    <img src="3.png" alt="Proyek 3">
+                    <h3>Proyek 3</h3>
+                    <p>Website PT.Jati Karya</p>
                 </div>
+                <!-- Tambah item pekerjaan lainnya di sini -->
             </div>
-        </div>
+        </section>
     </div>
+
     <footer>
-        <p>&copy; 2023 Diana Trimuawasi. All rights reserved.</p>
+        <p>&copy; 2024 Diana Trimuawasih. Semua hak cipta dilindungi.</p>
     </footer>
 </body>
 </html>
